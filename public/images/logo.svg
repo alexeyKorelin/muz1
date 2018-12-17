@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="39" viewBox="0 0 105 39">
+    <g fill="#000" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <path d="M36.506 11.82l-15.174-1.473.085 8.26 10.97 2.176-6.653 5.91 3.3-5.343-8.753-1.606-.258-1.14L0 17.652 5.081 38.8 27.94 39 38 22.571zM34.042 10.347l-.194-7.617-7.723-.342.245 7.138z"/>
+            <path d="M20.473 9.157l4.86.126-.152-8.991L17.417 0l.648 16.615 2.657.1zM16.625 16.714L16.086.964 8.708.796l.577 15.549zM7.125 16.714L6.849 2.557 0 2.387l.312 13.955z"/>
+        </g>
+        <text font-family="Montserrat-Black, Montserrat" font-size="24" font-weight="700">
+            <tspan x="54" y="29">RBL</tspan>
+        </text>
+    </g>
+</svg>

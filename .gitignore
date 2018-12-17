@@ -1,0 +1,10 @@
+/node_modules
+/.next
+/out
+.env
+/config/index.js
+npm-debug.log
+.DS_Store
+.idea/*
+yarn.lock
+.vscode

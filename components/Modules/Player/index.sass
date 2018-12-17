@@ -1,0 +1,52 @@
+@import 'styles/partials/variables.sass'
+
+.root
+  width: 100%
+  box-sizing: border-box
+  height: 88px
+  padding-top: 28px
+  background: $black
+  position: fixed
+  left: 0
+  bottom: 0
+  z-index: 1
+  padding-left: 44px
+  padding-right: 44px
+  display: flex
+  flex-wrap: wrap
+
+.controls
+  margin-right: 23px
+
+  &__btn
+    width: 32px
+    height: 32px
+    background-color: transparent
+    padding: 0
+    border: none
+    opacity: .5
+    cursor: pointer
+    background-position: center
+    background-repeat: no-repeat
+    transition: all .3s
+
+    &:not(:last-child)
+      margin-right: 7px
+
+    &:hover
+      opacity: 1
+
+.info
+  padding-top: 2px
+
+.title
+  color: $white
+  font-weight: $bold
+  font-size: 14px
+
+.artist
+  color: $white
+  opacity: .4
+  font-size: 12px
+  font-weight: $medium
+  margin-top: 7px

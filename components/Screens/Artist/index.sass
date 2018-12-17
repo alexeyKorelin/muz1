@@ -1,0 +1,82 @@
+@import 'styles/partials/variables.sass'
+@import 'styles/partials/mixins.sass'
+
+.image
+  width: 100%
+
+.title
+  margin-top: 0
+
+.description
+  font-size: 14px
+  line-height: 24px
+  color: $black
+  font-weight: $medium
+  margin-top: 25px
+
+.stats
+  margin-top: 42px
+
+.tags
+  margin-top: 10px
+
+.play
+  margin-top: 43px
+
+.tracks
+  $root: &
+
+  list-style: none
+  padding: 0
+  margin: 17px 0 0
+  font-weight: $medium
+  font-size: 12px
+
+  &__li
+    display: flex
+    align-items: center
+    height: 79px
+    box-shadow: inset 0 -1px 0 0 $medium-gray
+    flex-wrap: wrap
+    position: relative
+
+    &:hover
+      #{$root}
+        &__play
+          opacity: 1
+
+  &__controls
+    width: 23px
+    margin-right: 15px
+
+  &__number
+    color: $black
+
+  &__play
+    top: 50%
+    transform: translateY(-50%)
+    opacity: 0
+    width: 22px
+    height: 22px
+    position: absolute
+    z-index: 1
+    background: $black
+    border: none
+    left: -6px
+    cursor: pointer
+    transition: all .3s
+
+    &_active
+      opacity: 1
+
+  &__title, &__artist
+    overflow: hidden
+    text-overflow: ellipsis
+
+  &__title
+    color: $black
+    margin-right: 15px
+
+  &__artist
+    color: $gray
+    margin-left: auto
