@@ -2,7 +2,6 @@
 /.next
 /out
 .env
-/config/index.js
 npm-debug.log
 .DS_Store
 .idea/*

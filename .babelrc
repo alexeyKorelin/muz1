@@ -6,7 +6,6 @@
     }]
   ],
   "plugins": [
-    "jsx-control-statements",
     "transform-export-extensions",
     "@babel/plugin-proposal-export-default-from",
     ["wrap-in-js", {
